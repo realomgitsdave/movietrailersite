@@ -6,14 +6,14 @@ This package is a simple movie trailer website for the Udacity full stack web de
 
 ### Installation
 Clone the repository
-...
+```
 git clone https://github.com/realomgitsdave/movietrailersite.git
-
+```
 - or -
 
 [download a zip file](https://github.com/realomgitsdave/movietrailersite/archive/master.zip)
 
 ### Usage
-...
+```
 python entertainment_center.py
-...
+```
