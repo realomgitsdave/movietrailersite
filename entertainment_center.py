@@ -1,8 +1,8 @@
 import media
 import fresh_tomatoes
 
-#Instantiate a media.Movie object for each movie
-#Declare title, storyline, poster image, and trailer url for each movie
+# Instantiate a media.Movie object for each movie
+# Declare title, storyline, poster image, and trailer url for each movie
 
 super_troopers = media.Movie("Super Troopers",
                         "Five Vermont state troopers, avid pranksters with a knack for screwing up, try to save their jobs and out-do the local police department by solving a crime.",
@@ -36,8 +36,8 @@ office_space = media.Movie("Office Space",
                             "https://images-na.ssl-images-amazon.com/images/M/MV5BOTA5MzQ3MzI1NV5BMl5BanBnXkFtZTgwNTcxNTYxMTE@._V1_SY1000_CR0,0,675,1000_AL_.jpg",
                             "https://www.youtube.com/watch?v=dMIrlP61Z9s")
 
-# Add all movies to the movies array
+# Add all movies to the movies list
 movies = [dirty_rotten_scoundrels, i_love_you_man, the_matrix, office_space, super_troopers, unforgiven]
 
-# Pass the movies array to fresh_tomatoes.py to create the web page
+# Pass the movies list to fresh_tomatoes.py to render the web page
 fresh_tomatoes.open_movies_page(movies)
