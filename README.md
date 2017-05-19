@@ -1,12 +1,10 @@
-#Movie-Trailer-Project
+# Movie-Trailer-Project
 This package is a simple movie trailer website for the Udacity full stack web developer nanodegree program. It renders a list of movie objects to a web page with poster images for each movie. Clicking on the movie poster launches the trailer for the movie.
 
-##Table of Contents
-
-###Dependencies
+### Dependencies
 [Python](https://www.python.org)
 
-###Installation
+### Installation
 Clone the repository
 ...
 git clone https://github.com/realomgitsdave/movietrailersite.git
@@ -15,7 +13,7 @@ git clone https://github.com/realomgitsdave/movietrailersite.git
 
 [download a zip file](https://github.com/realomgitsdave/movietrailersite/archive/master.zip)
 
-###Usage
+### Usage
 ...
 python entertainment_center.py
 ...
